@@ -1,0 +1,48 @@
+
+/* tablet */
+@media(min-width: 768px) and (max-width:1280px) {
+    /* css header */
+ main{
+    margin-top: 80px;
+    height: auto;
+ }
+  /* css menu-mobile */
+  .title-mobile form{
+    display: none;
+  }
+  .title-mobile{
+    display: block;
+}
+.title{
+    display: none;
+}
+  .icon-menu-mobile{
+    display: block;
+    font-size: 22px;
+  }
+    /* css menu */
+    .menu{
+        display: none;
+    }
+    .d-flex{
+        justify-content: space-evenly;
+    }
+    .menu ul>li {
+        padding: 0px;
+        line-height: 21px;
+    }
+    /* .menu-mobile .menu-sub-gold{
+        position: relative;
+        display: none;
+    }
+    .menu-mobile ul li:active .menu-sub-gold{
+   display: block;
+    } */
+
+}
+/* mobile  */
+@media(max-width: 768px) {
+    .menu{
+        display: none;
+    }
+}
